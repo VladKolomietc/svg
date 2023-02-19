@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1600px;
+    height: 960px;
+    background: #0C192B;
+}
+svg {
+    margin: 0 auto;
+    width: 1600px;
+    height: 960px;
+}
+circle {
+    fill:  #8352A1;
+}
+circle:nth-child(2) {
+    fill:  #3E99D3;
+}
+polyline {
+    stroke: #E53C54;
+    stroke-width: 80px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+polyline:nth-child(2) {
+    stroke: #F49352;
+
+}
+polyline:nth-child(3) {
+    stroke: #3EBB90;
+
+}
